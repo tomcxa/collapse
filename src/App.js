@@ -13,8 +13,8 @@ function App() {
 
     return (
             <Collapse
-                // collapsedLabel='Open'
-                // expandedLabel='Close'
+                collapsedLabel='Close'
+                expandedLabel='Open'
                 isExpanded={isExpanded}
                 onExpandedChange={handleExpandedChange}
             >
